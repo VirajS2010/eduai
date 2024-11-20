@@ -1,17 +1,24 @@
-# eduai Textbook Generator
+# eduAI Textbook Generator
 
-eduai is an AI-powered tool that generates personalized textbooks tailored to your chosen topics. It leverages advanced AI models and creates professional-grade textbooks in DOCX format.
+eduAI Textbook Generator is a Python-based web application designed to generate personalized textbooks based on user-provided topics. This project uses Flask for the backend, generating DOCX files using the `python-docx` library. It's an easy-to-use tool aimed at helping students and educators create custom textbooks quickly and efficiently.
 
 ## Features
+- **Topic-based Textbook Generation**: Users can enter a topic, and the application generates a simple textbook with sections on that topic.
+- **Interactive Web Interface**: The application comes with a clean, modern web UI where users can input the topic they want their textbook to cover.
+- **Customizable Sections**: You can easily modify the sections and content of the generated textbooks.
 
-- **Topic-Based Textbooks**: Enter any topic, and the app generates a well-structured textbook.
-- **Dynamic Content**: Automatically generates content using AI, ensuring relevance and accuracy.
-- **DOCX Format**: Textbooks are delivered in DOCX format for easy editing and sharing.
-- **Intuitive UI**: A clean and modern interface for a seamless user experience.
+## Technologies Used
+- **Flask**: A lightweight web framework to handle routing and HTTP requests.
+- **python-docx**: Used to generate DOCX files from the content.
+- **HTML/CSS**: For the front-end interface.
+- **JavaScript**: For dynamic content handling.
 
-## How It Works
+## Installation
 
-1. Enter a topic into the text field on the web interface.
-2. Click "Generate Textbook."
-3. Download your customized textbook in DOCX format.
+### Prerequisites
+Make sure you have Python 3.x installed on your machine. You'll also need to install the required dependencies.
 
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/eduai.git
+   cd eduai
