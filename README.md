@@ -20,5 +20,5 @@ Make sure you have Python 3.x installed on your machine. You'll also need to ins
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/eduai.git
+   git clone https://github.com/VirajS2010/eduai.git
    cd eduai
